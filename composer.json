@@ -1,0 +1,22 @@
+{
+    "name": "db-schema-sync/db-schema-sync",
+    "autoload": {
+        "psr-4": {
+            "Misync\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yazanQwaider",
+            "email": "yazeno15@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DBSchemaSync\\DBSchemaSyncServiceProvider"
+            ]
+        }
+    }
+}
